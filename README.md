@@ -11,6 +11,28 @@ CoreMind是一个可自定义数据源、接口、知识库的AI助手框架，�
 - 🔌 **接口自定义**: 可视化配置、灵活扩展
 - 💬 **对话管理**: 多轮对话、上下文记忆、个性化回复
 
+## 界面预览
+
+### 首页
+![首页](./docs/首页.png)
+
+### LLM配置
+![LLM配置](./docs/LLM配置.png)
+
+### 数据源管理
+![数据源](./docs/数据源.png)
+
+### 知识库管理
+![知识库](./docs/知识库.png)
+
+### AI助手配置
+![AI助手配置](./docs/AI助手配置.png)
+
+### 对话界面
+![会话](./docs/会话.png)
+
+![会话2](./docs/会话2.png)
+
 ## 技术栈
 
 - **后端**: Python 3.11+ / FastAPI
@@ -139,6 +161,8 @@ CoreMind/
 
 ### 数据源配置
 
+![数据源配置界面](./docs/数据源.png)
+
 支持以下数据源类型：
 - 本地文件 (PDF, DOCX, XLSX, TXT, CSV)
 - 数据库 (MySQL, PostgreSQL, MongoDB)
@@ -147,6 +171,8 @@ CoreMind/
 
 ### 知识库配置
 
+![知识库配置界面](./docs/知识库.png)
+
 支持多种embedding模型：
 - OpenAI Embeddings
 - HuggingFace Embeddings
@@ -154,10 +180,23 @@ CoreMind/
 
 ### LLM配置
 
+![LLM配置界面](./docs/LLM配置.png)
+
 支持的模型：
 - OpenAI GPT-4/GPT-3.5
 - Azure OpenAI
 - 本地模型 (通过Ollama)
+
+### AI助手配置
+
+![AI助手配置界面](./docs/AI助手配置.png)
+
+通过可视化界面配置AI助手的行为和参数，包括：
+- 模型选择
+- 温度参数
+- 上下文长度
+- 系统提示词
+- 数据源和知识库关联
 
 ## 开发指南
 
